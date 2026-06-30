@@ -8,7 +8,7 @@ namespace Ex
     {
         public GameObject attackEffect;
         public Animator animator;
-        public TextMeshProUGUI text;
+		public TextMeshProUGUI text;
         private void Start()
         {
             StartCoroutine(PlayAnimationSequence());
